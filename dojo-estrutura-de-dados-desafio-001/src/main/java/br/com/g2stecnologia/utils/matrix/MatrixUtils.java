@@ -1,4 +1,4 @@
-package br.com.g2stecnologia;
+package br.com.g2stecnologia.utils.matrix;
 
 public class MatrixUtils {
 
@@ -15,4 +15,5 @@ public class MatrixUtils {
         }
         return  resultMatrix;
     }
+
 }
