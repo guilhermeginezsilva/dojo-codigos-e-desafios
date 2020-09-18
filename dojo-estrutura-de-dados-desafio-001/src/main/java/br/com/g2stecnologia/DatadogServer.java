@@ -5,6 +5,6 @@ import java.time.LocalDateTime;
 public interface DatadogServer {
 
     public void incrementCounter();
-    public void getCounter(LocalDateTime from, LocalDateTime until);
+    public long getCounter(LocalDateTime from, LocalDateTime until);
 
 }
